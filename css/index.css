@@ -433,3 +433,72 @@ body {
     color: #ec544e;
     font-weight: 800;
 }
+
+
+/* Secao newsletters*/
+
+#newsletters {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #041E41;
+    background-image: url('/img/banner/b14.png');
+    background-repeat: repeat;
+    background-position: 20% 20%;
+}
+
+#newsletters h4, p {
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+}
+#newsletters p span {
+    color: #B5740E;
+}
+
+#newsletters input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletters button {
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+}
+
+#newsletters .form {
+    display: flex;
+    width: 40%;
+}
+
+.col1 {
+    width: 50%;
+
+}
+
+
+.col2 {
+    width: 50%;
+}
+
+.col2 input {
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.col2 button {
+    padding: 10px;
+    color: white;
+    background-color: #098177;    
+}
+
